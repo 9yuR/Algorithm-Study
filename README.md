@@ -2,9 +2,10 @@
 <h2>우와앙~ 신나는 알고리즘 공부</h2>
   
 <h3>
+  알고리즘 문제 사이트<br>
   <a href="https://code.plus/course/41" target="_blank">C{ }DE.PLUS+</a><br>
   <a href="https://www.acmicpc.net" target="_blank">BAEKJOON</a>
-</h3>
+</h3><br>
 
 <h3>문제풀 때 주의할 것!</h3>
 1. 입력 시 요구하는 최대 숫자 체킹<br>
