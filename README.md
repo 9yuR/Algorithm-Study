@@ -5,11 +5,20 @@
   알고리즘 문제 사이트<br>
   <a href="https://code.plus/course/41" target="_blank">C{ }DE.PLUS+</a><br>
   <a href="https://www.acmicpc.net" target="_blank">BAEKJOON</a>
+  <a href="https://school.programmers.co.kr/learn/challenges?order=recent&levels=0&languages=cpp">프로그래머스</a>
 </h4><br>
 
 <h4>문제풀 때 주의할 것!</h4>
 &emsp;1. 입력 시 요구하는 최대 숫자 체킹<br>
 &emsp;2. 전역변수 or 배열변수 자료형 체킹<br><br>
+
+<h4>여러가지 함수들</h4>
+* str.find("string")
+  * 반환값은 인덱스
+  * 찾지 못한 경우 string::npos 값 반환
+  
+<h4>C++ 표현방식</h4>
+* for(char const &c : string) cout << c << " ";
 
 <h4>다시 풀 문제들!!</h4>
 
