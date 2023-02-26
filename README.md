@@ -21,8 +21,7 @@
   for(char const &c : string) 
     cout << c << " ";
   ```
-* vector 최댓값 및 인덱스
-* algorithm 헤더 이용
+* vector 최댓값 및 인덱스 -> algorithm 헤더 이용
   ```C++
   int max = *max_element(v.begin(), v.end());
   int max_index = max_element(v.begin(), v.end()) - v.begin();
