@@ -13,15 +13,14 @@
 * 전역변수 or 배열변수 자료형 체킹
 
 > **여러가지 함수들**
-* str.find("string")
-  ** 반환값은 인덱스
-  ** 찾지 못한 경우 string::npos 값 반환
+* str.find("string") : 반환값은 인덱스, 찾지 못한 경우 string::npos 값 반환
   
 > **C++ 표현방식**
-```C++
-  for(char const &c : string) 
-    cout << c << " ";
-```
+* string 순회
+  ```C++
+    for(char const &c : string) 
+      cout << c << " ";
+  ```
 
 <h4>다시 풀 문제들!!</h4>
 
