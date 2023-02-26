@@ -21,7 +21,13 @@
   for(char const &c : string) 
     cout << c << " ";
   ```
-
+* vector 최댓값 및 인덱스
+* algorithm 헤더 이용
+  ```C++
+  int max = *max_element(v.begin(), v.end());
+  int max_index = max_element(v.begin(), v.end()) - v.begin();
+  ```
+  
 <h4>다시 풀 문제들!!</h4>
 
 &emsp;S1)17087 ( 애를 은근 먹었던 문제 )
