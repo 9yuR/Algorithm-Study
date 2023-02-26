@@ -18,8 +18,8 @@
 > **C++ 표현방식**
 * string 순회
   ```C++
-    for(char const &c : string) 
-      cout << c << " ";
+  for(char const &c : string) 
+    cout << c << " ";
   ```
 
 <h4>다시 풀 문제들!!</h4>
