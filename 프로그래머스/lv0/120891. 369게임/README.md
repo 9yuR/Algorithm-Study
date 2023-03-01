@@ -63,3 +63,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+> 문제점
+  * 10으로 나누어 떨어지는 경우를 조건에 포함했어야 한다.
