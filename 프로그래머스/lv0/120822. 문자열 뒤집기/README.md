@@ -64,7 +64,7 @@
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
 
-* reverse 함수는 <algorithm> 헤더가 필요하다.
+* reverse 함수는 algorithm 헤더가 필요하다.
 ```C++ 
   reverse(str.begin(), str.end());
 ```
