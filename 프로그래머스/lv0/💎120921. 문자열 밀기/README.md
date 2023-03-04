@@ -87,5 +87,12 @@
 <li>"abc"는 밀지 않아도 "abc"이므로 0을 반환합니다.</li>
 </ul>
 
+> 진짜 장난 아닌 코드
+```C++
+  int solution(string A, string B) {
+    B += B;
+    return B.find(A);
+  }
+```
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
