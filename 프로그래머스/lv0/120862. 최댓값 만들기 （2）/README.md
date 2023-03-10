@@ -72,5 +72,14 @@
 <li>두 수의 곱중 최댓값은 20 * 30 = 600 입니다.</li>
 </ul>
 
+> 시간복잡도를 줄이는 방법 
+* 현재 풀이는 O^2, 아래 풀이는 sort 함수를 통해 N log N으로 줄이는 방법
+```C++
+int solution(vector<int> numbers) {
+    sort(numbers.begin(),numbers.end());    
+    int n = numbers.size();
+    return max(numbers[n-1]*numbers[n-2],numbers[0]*numbers[1]);
+}
+```
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
