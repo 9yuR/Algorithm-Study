@@ -1,3 +1,3 @@
 SELECT *
-from animal_ins
-order by animal_id
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID;
